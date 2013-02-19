@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project-modules id="moduleCoreId" project-version="2.0">
+<project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="vraptor-loja-project">
 		<property name="context-root" value="vraptor-loja-project"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/test/unit"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/test/integration"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/filipe/.gradle/caches/artifacts-13/filestore/org.apache.ant/ant/1.8.2/jar/fc33bf7cd8c5309dd7b81228e8626515ee42efd9/ant-1.8.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
