@@ -1,6 +1,16 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+buildSrc/.gradle
+.gradle
+.classpath
+/.classpath
+.project
+.mymetadata
+.settings/
+.externalToolBuilders/
+WebRoot/WEB-INF/classes/
+target/
+.myeclipse/
+.DS_Store
+bin
+Thumbs.db
+build/
+build.properties
