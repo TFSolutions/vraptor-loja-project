@@ -2,16 +2,9 @@ buildscript {
   repositories {
       mavenCentral()
   }
-  dependencies {
-      classpath 'com.eriwen:gradle-js-plugin:0.4.1'
-      classpath 'com.eriwen:gradle-css-plugin:0.3'
-  }
 }
 
-apply plugin: 'css'
-apply plugin: 'js'
 apply plugin: "java"
-apply plugin: "jetty"
 apply plugin: "eclipse-wtp"
 apply from: "tasks.gradle"
 
