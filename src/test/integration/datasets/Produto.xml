@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dataset>
+    
+    <produto id="1"
+             descricao="caderno"
+             valor="10.50"
+    />
+    
+    <produto id="2"
+             descricao="agenda"
+             valor="15.00"
+    />
+    
+    <produto id="3"
+             descricao="caneta"
+             valor="1.00"
+    />
+
+</dataset>

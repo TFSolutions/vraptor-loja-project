@@ -16,7 +16,7 @@
         <!-- Activates scanning of @Autowired -->
         <context:annotation-config />
         <!-- Scans for @Repository, @Service and @Component -->
-        <context:component-scan base-package="br.com.tfsolutions.loja" />
+        <context:component-scan base-package="br.com.tfsolutions" />
         <!-- Enable @Transactional support -->
         <tx:annotation-driven />
         
