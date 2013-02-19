@@ -1,0 +1,19 @@
+configurations{
+  sshAntTask
+}
+repositories{
+  mavenCentral()
+}
+
+dependencies {
+  sshAntTask 'org.apache.ant:ant-jsch:1.7.0'
+  sshAntTask 'ant:ant-jsch:1.6.5'
+}
+
+task copyConfiguration << {
+  copy {
+      from "src/main/environment/$environment"
+      into "src/main/resources"
+      include "**/*"
+  }
+}
