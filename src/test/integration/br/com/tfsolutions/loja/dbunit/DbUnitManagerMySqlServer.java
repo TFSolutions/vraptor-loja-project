@@ -175,32 +175,4 @@ public class DbUnitManagerMySqlServer implements DbUnitManager {
                 }   
         }
 
-        public void updateAutoIncrementTable(String table) {
-                //ALTER TABLE table AUTO_INCREMENT = 0;
-                try {
-                        Statement sta;
-                        String alter = "ALTER TABLE " + table + " AUTO_INCREMENT = 1";
-                        sta = getConnection().createStatement();
-                        sta.executeUpdate(alter);
-                }
-                catch (SQLException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                }
-        }
-
-        public void updateAutoIncrementTable(String table, String start) {
-                //ALTER TABLE table AUTO_INCREMENT = 0;
-                try {
-                        Statement sta;
-                        String alter = "ALTER TABLE " + table + " AUTO_INCREMENT = " + start;
-                        sta = getConnection().createStatement();
-                        sta.executeUpdate(alter);
-                }
-                catch (SQLException e) {
-                        // TODO Auto-generated catch block
-                        e.printStackTrace();
-                }
-        }
-
 }

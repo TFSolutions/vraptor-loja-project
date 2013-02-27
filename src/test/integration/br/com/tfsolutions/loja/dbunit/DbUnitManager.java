@@ -48,9 +48,5 @@ public interface DbUnitManager {
         
         public Connection getConnection() throws SQLException;
         
-        public void updateAutoIncrementTable(String table);
-
-        public void updateAutoIncrementTable(String table, String start);
-
 }
 
