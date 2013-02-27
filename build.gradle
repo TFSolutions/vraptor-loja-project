@@ -21,7 +21,6 @@ sourceSets {
       srcDir "src/test/unit"
     }
     resources {
-      srcDir "src/main/resources"
       srcDir "src/test/integration"
       srcDir "src/test/acceptance"
       srcDir "src/test/unit"

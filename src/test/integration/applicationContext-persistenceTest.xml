@@ -52,6 +52,7 @@
                                 <prop key="hibernate.ejb.naming_strategy">org.hibernate.cfg.ImprovedNamingStrategy</prop>
                         </props>
                 </property>
+                <property name="persistenceXmlLocation" value="META-INF/persistence.xml" />
         </bean>
 
         <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
