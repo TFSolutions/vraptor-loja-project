@@ -34,11 +34,13 @@ public class ProdutoServiceTest {
   @Before public void
   setUp(){
     manager.cleanAndInsert(ResourceLoader.filePath(PRODUTO));
+    System.out.println(service.listar().toString());
   }
   
   @Test public void
   quandoListar_entao_devoObterTodosOsProdutos(){
     assertEquals(newArrayList(caderno(), agenda(), caneta()), service.listar());
+    
   }
 
   private Produto caneta() {

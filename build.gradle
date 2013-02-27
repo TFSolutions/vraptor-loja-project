@@ -1,9 +1,3 @@
-buildscript {
-  repositories {
-      mavenCentral()
-  }
-}
-
 apply plugin: "java"
 apply plugin: "jetty"
 apply plugin: "eclipse-wtp"
@@ -100,5 +94,5 @@ compileJava {
 }
 
 task wrapper(type:Wrapper) {
-  gradleVersion = '1.0-milestone-9'
+  gradleVersion = '1.4'
 }
