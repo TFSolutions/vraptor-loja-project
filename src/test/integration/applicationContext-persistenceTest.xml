@@ -39,6 +39,7 @@
                                 <property name="databasePlatform" value="${hibernate.databasePlatform}" />
                         </bean>
                 </property>
+                <property name="packagesToScan" value="br.com.tfsolutions" />
                 <property name="jpaProperties">
                         <props>
                                 <prop key="hibernate.format_sql">true</prop>                            
